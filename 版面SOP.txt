@@ -1,0 +1,48 @@
+
+*****頁面標題 樣式******
+		<font size=5>
+			<div class="callout callout-info"> </div>
+        </font>		
+		
+		
+********圖檔*********
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+				<div class="col-md-2">
+					<br>information<br>
+				</div>
+				<div class="col-md-10">
+					<img src="../dist/img/ /_T.png" title=" "  width="90%" height="90%" style="float: right; margin:10px">
+                </div>
+			</div>
+
+        </section><!-- /.content -->
+		
+		
+********** 可移動式框框 ***************
+   <!-- Main content -->
+   <section class="content">
+	  <!-- Main row -->
+	  <div class="row">
+	  
+		<!-- ********************* left col ********************* -->
+		<section class="col-lg-4 connectedSortable">
+		  <!-- ********** 一個框 ********** -->
+		  <div class="box box-solid box-primary">
+			<div class="box-header">
+			  <i class="fa fa-bar-chart-o"></i>
+			  <h3 class="box-title">GoldDemand_2011</h3>
+			  <div class="box-tools pull-right">
+				<button class="btn btn-default btn-sm" data-widget="collapse"><i class="fa fa-minus"></i></button>
+				<button class="btn btn-default btn-sm" data-widget="remove"><i class="fa fa-times"></i></button>
+			  </div>
+			</div>
+			<div class="box-body border-radius-none">
+			  <!-- ********** 圖檔放這兒 ********** -->
+			  <div><img src="../../dist/img/GoldDemand/gold_demand_2011.png" title="GoldDemand_2011" width="100%" height="100%"></div>
+			</div><!-- /.box-body -->
+		  </div><!-- /.box -->
+	  </div><!-- /.row (main row) -->
+	  
+	</section><!-- /.content -->
