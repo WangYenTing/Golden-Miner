@@ -1,0 +1,2664 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>GOLDEN MINER | AnalysisandMethod</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <!-- Bootstrap 3.3.2 -->
+    <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- Font Awesome Icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Ionicons -->
+    <link href="http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <!-- Theme style -->
+    <link href="../../dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
+    <!-- AdminLTE Skins. Choose a skin from the css/skins 
+         folder instead of downloading all of them to reduce the load. -->
+    <link href="../../dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body class="skin-blue">
+    <div class="wrapper">
+      
+      <header class="main-header">
+        <!-- Logo -->
+        <a href="../../index.html" class="logo"><b>GOLDEN MINER</b></a>
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top" role="navigation">
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>
+          <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+              <!-- Messages: style can be found in dropdown.less-->
+              <li class="dropdown messages-menu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <i class="fa fa-envelope-o"></i>
+                  <span class="label label-success">1</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="header">You have 1 messages</li>
+                  <li>
+                    <!-- inner menu: contains the actual data -->
+                    <ul class="menu">
+                      <li><!-- start message -->
+                        <a href="#">
+                          <div class="pull-left">
+                            <img src="../../dist/img/Gold.jpg" class="img-circle" alt="User Image"/>
+                          </div>
+                          <h4>
+                            Golden Miner
+                            <small><i class="fa fa-clock-o"></i> 5 mins</small>
+                          </h4>
+                          <p>Welcome</p>
+                        </a>
+                      </li><!-- end message -->
+                    </ul>
+                  </li>
+                  <li class="footer"><a href="#">See All Messages</a></li>
+                </ul>
+              </li>
+              <!-- Notifications: style can be found in dropdown.less -->
+              <li class="dropdown notifications-menu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <i class="fa fa-bell-o"></i>
+                  <span class="label label-warning">2</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="header">You have 2 notifications</li>
+                  <li>
+                    <!-- inner menu: contains the actual data -->
+                    <ul class="menu">
+                      <li>
+                        <a href="#">
+                          <i class="fa fa-users text-aqua"></i> 6 new members joined 
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa fa-user text-red"></i> You changed your username
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="footer"><a href="#">View all</a></li>
+                </ul>
+              </li>
+              <!-- Tasks: style can be found in dropdown.less -->
+              <li class="dropdown tasks-menu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <i class="fa fa-flag-o"></i>
+                  <span class="label label-danger">1</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="header">You have 0 tasks</li>
+                  <li>
+                    <!-- inner menu: contains the actual data -->
+                    <ul class="menu">
+                      <li><!-- Task item -->
+                        <a href="#">
+                          <h3>
+                            Analysis
+                            <small class="pull-right">100%</small>
+                          </h3>
+                          <div class="progress xs">
+                            <div class="progress-bar progress-bar-green" style="width: 100%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                              <span class="sr-only">100% Complete</span>
+                            </div>
+                          </div>
+                        </a>
+                      </li><!-- end task item -->
+                      <li><!-- Task item -->
+                        <a href="#">
+                          <h3>
+                            Visualization
+                            <small class="pull-right">100%</small>
+                          </h3>
+                          <div class="progress xs">
+                            <div class="progress-bar progress-bar-green" style="width: 100%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                              <span class="sr-only">100% Complete</span>
+                            </div>
+                          </div>
+                        </a>
+                      </li><!-- end task item -->
+                      <li><!-- Task item -->
+                        <a href="#">
+                          <h3>
+                            Machine Learning - SVR
+                            <small class="pull-right">100%</small>
+                          </h3>
+                          <div class="progress xs">
+                            <div class="progress-bar progress-bar-green" style="width: 100%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                              <span class="sr-only">100% Complete</span>
+                            </div>
+                          </div>
+                        </a>
+                      </li><!-- end task item -->
+                      <li><!-- Task item -->
+                        <a href="#">
+                          <h3>
+                            Design some buttons
+                            <small class="pull-right">80%</small>
+                          </h3>
+                          <div class="progress xs">
+                            <div class="progress-bar progress-bar-yellow" style="width: 80%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                              <span class="sr-only">80% Complete</span>
+                            </div>
+                          </div>
+                        </a>
+                      </li><!-- end task item -->
+                    </ul>
+                  </li>
+                  <li class="footer">
+                    <a href="#">View all tasks</a>
+                  </li>
+                </ul>
+              </li>
+              <!-- User Account: style can be found in dropdown.less -->
+              <li class="dropdown user user-menu">
+                <a href="#" class="dropdown-toggle">
+                  <img src="../../dist/img/Gold.jpg" class="user-image" alt="User Image"/>
+                  <span class="hidden-xs">Golden Miner</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- Left side column. contains the logo and sidebar -->
+      <aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+          <!-- Sidebar user panel -->
+          <div class="user-panel">
+            <div class="pull-left image">
+              <img src="../../dist/img/Gold.jpg" class="img-circle" alt="User Image" />
+            </div>
+            <div class="pull-left info">
+              <p>Golden Miner</p>
+              <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+            </div>
+          </div>
+          <!-- search form -->
+          <form action="#" method="get" class="sidebar-form">
+            <div class="input-group">
+              <input type="text" name="q" class="form-control" placeholder="Search..."/>
+              <span class="input-group-btn">
+                <button type='submit' name='seach' id='search-btn' class="btn btn-flat"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+          <!-- /.search form -->
+          <!-- sidebar menu: : style can be found in sidebar.less -->
+          <ul class="sidebar-menu">
+            <li class="header">MAIN NAVIGATION</li>
+            
+            <!-- 選單0. Home -->
+            <li>
+			  <a href="../../index.html"><i class="fa fa-home"></i> Home</a>
+			</li>
+            
+            <!-- 選單1. Gold Price-->
+            <li>
+              <a href="../GoldPrice.html"><i class="fa fa-tasks"></i><span> Gold Price</span></a>
+            </li>
+			
+            <!-- 選單2. Supply-->
+            <li>
+              <a href="../Supply.html"><i class="fa fa-globe"></i><span> Supply</span></a>
+            </li>
+            
+            <!-- 選單3. Gold Demand-->
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-bar-chart-o"></i>
+                <span> Gold Demand</span>
+                <i class="fa fa-angle-left pull-right"></i>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="../GoldDemand/BarChart.html"><i class="fa fa-circle-o"></i> Bar Chart</a></li>
+                <li><a href="../GoldDemand/Industry.html"><i class="fa fa-circle-o"></i> By Industry</a></li>
+                <li><a href="../GoldDemand/Year.html"><i class="fa fa-circle-o"></i> By Year</a></li>
+				<li><a href="../GoldDemand/Country.html"><i class="fa fa-circle-o"></i> By Country</a></li>
+              </ul>
+            </li>
+            
+            <!-- 選單4. Analysis and Method-->
+            <li class="treeview active">
+              <a href="#">
+                <i class="fa fa-laptop"></i>
+                <span>Analysis and Method</span>
+                <i class="fa fa-angle-left pull-right"></i>
+              </a>
+              <ul class="treeview-menu">
+			    <li>
+				  <a href="#"><i class="fa fa-circle-o"></i> Gold Reserves <i class="fa fa-angle-left pull-right"></i></a>
+                  <ul class="treeview-menu">
+					<li><a href="../GoldReserves/Top15.html"><i class="fa fa-circle-o"></i>Top15</a></li>
+					<li><a href="../GoldReserves/Country.html"><i class="fa fa-circle-o"></i>Country</a></li>
+					<li><a href="../GoldReserves/Map.html"><i class="fa fa-circle-o"></i>Map</a></li>
+				  </ul>
+				</li>
+				
+			    <li class="active">
+				  <a href="#"><i class="fa fa-circle-o"></i> Gold Price <i class="fa fa-angle-left pull-right"></i></a>
+                  <ul class="treeview-menu">
+					<li><a href="GP_ETF.html"><i class="fa fa-circle-o"></i>ETF</a></li>
+					<li><a href="GP_Currency.html"><i class="fa fa-circle-o"></i>Currency</a></li>
+					<li class="active"><a href="GP_R&B.html"><i class="fa fa-circle-o"></i>Rates + Bonds</a></li>
+					<li><a href="GP_Stocks.html"><i class="fa fa-circle-o"></i>Gold Price & Stocks</a></li>
+					<li><a href="GP_Commodity.html"><i class="fa fa-circle-o"></i>Commodity</a></li>
+				  </ul>
+				</li>
+				<li><a href="MOM.html"><i class="fa fa-circle-o"></i> Gold MoM</a></li>
+              </ul>
+            </li>
+            
+            <!-- 選單5. Machine Learning-->
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-road"></i>
+                <span>Machine Learning</span>
+                <i class="fa fa-angle-left pull-right"></i>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="../ML/SVR.html"><i class="fa fa-circle-o"></i> SVR</a></li>
+              </ul>
+            </li>
+			
+             <!-- 選單6. Data Table-->
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-table"></i> <span>Data Table</span>
+                <i class="fa fa-angle-left pull-right"></i>
+              </a>
+              <ul class="treeview-menu">
+                <li>
+                  <a href="#"><i class="fa fa-circle-o"></i> Gold Price <i class="fa fa-angle-left pull-right"></i></a>
+                  <ul class="treeview-menu">
+                    <li><a href="../tables/History.html"><i class="fa fa-circle-o"></i> History</a></li>
+                    <li><a href="../tables/ByDay.html"><i class="fa fa-circle-o"></i> Rate and others By Day</a></li>
+                    <li><a href="../tables/ByMonth.html"><i class="fa fa-circle-o"></i> ETF holding By Month</a></li>
+                    <li><a href="../tables/QTY.html"><i class="fa fa-circle-o"></i> Change in Q'TY demand</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="../tables/Capita.html"><i class="fa fa-circle-o"></i> Gold Demand Per Capita</a>
+                </li>
+              </ul>
+            </li>
+			
+			<!-- 選單7. Team Group-->
+            <li>
+              <a href="../TeamGroup.html">
+                <i class="fa fa-group"></i> <span>Team Group</span> 
+              </a>
+            </li>
+
+			<!-- Documentation-->
+			<!--<li><a href="documentation/index.html"><i class="fa fa-book"></i> Documentation</a></li>-->		
+          </ul>
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+
+      <!-- Right side column. Contains the navbar and content of the page -->
+      <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+		<h1>
+			<div class="callout callout-info"> Gold Price and Rates + Bonds </div>
+        </h1>		
+          <ol class="breadcrumb">
+		  <h4></h4>
+            <li><a href="../../index.html"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#">Analysis and Method</a></li>
+            <li class="active">Gold Price and Rates + Bonds</li>
+          </ol>
+        </section>
+		
+			<!-- Table Style -->
+			<style type="text/css">
+				table.tableizer-table {
+					font-size: 16px;
+					border: 1px solid #CCC; 
+					font-family: DFKai-sb,sans-serif;
+				} 
+				.tableizer-table td {
+					padding: 4px;
+					margin: 3px;
+					border: 1px solid #CCC;
+					text-align:right;
+				}
+				.tableizer-table td:first-child {
+					text-align:left;
+				}
+				.tableizer-table th {
+					background-color: #646EB3; 
+					color: #FFF;
+					font-weight: bold;
+					border: 1px solid #CCC;
+					text-align:center;
+				}
+				</style>
+			
+        <!-- Main content -->
+        <section class="content">
+		  <div class="row">
+		    <h3 class="col-xs-12" style="font-family: DFKai-sb,sans-serif;">債市相關</h3>
+		    <div class="col-xs-12"><h4 style="font-family: DFKai-sb,sans-serif;"><b>中國一年期存款利率與黃金價格走勢呈現中度正相關；
+			  <br>美國十年期公債殖利率、美國二年期公債殖利率、歐元區存款利率與黃金價格走勢呈現高度負相關，
+			  <br>美國聯邦利率、南非十年期公債殖利率、美國實質利率與黃金價格走勢呈現中度負相關。</b></h4>
+		    </div>
+			<div class="col-md-4">
+				<table class="tableizer-table" width="100%">
+				<caption style="font-size:18px; font-family:DFKai-sb, sans-serif;"><b>Descriptive statistics</b></caption>
+				<thead><tr class="tableizer-firstrow"><th></th><th>平均數</th><th>標準差</th></tr></thead><tbody>
+				 <tr><td>Gold Price</td><td>   886.9</td><td>   469.3</td></tr>
+				 <tr><td>美國FED利率</td><td>1.8%</td><td>2.0%</td></tr>
+				 <tr><td>美國實質利率</td><td>-0.56%</td><td>1.6%</td></tr>
+				 <tr><td>中國一年期存款利率</td><td>2.6%</td><td>0.7%</td></tr>
+				 <tr><td>馬來西亞利率</td><td>6.4%</td><td>0.6%</td></tr>
+				 <tr><td>歐元區存款利率</td><td>1.1%</td><td>1.3%</td></tr>
+				 <tr><td>日本放款利率</td><td>1.5%</td><td>0.1%</td></tr>
+				 <tr><td>澳洲利率</td><td>4.3%</td><td>1.6%</td></tr>
+				 <tr><td>印度利率</td><td>7.2%</td><td>1.4%</td></tr>
+				 <tr><td>美國十年期公債殖利率</td><td>3.5%</td><td>1.3%</td></tr>
+				 <tr><td>美國二年期公債殖利率</td><td>2.1%</td><td>1.8%</td></tr>
+				 <tr><td>南非十年期公債殖利率</td><td>9.2%</td><td>1.6%</td></tr>
+				</tbody></table>		  
+			</div>
+			<div class="col-md-8">
+				<div id="GoldPrice_rate" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
+			</div>
+			
+		  </div>
+
+		  <div class="row">
+			<div class="col-md-12">
+			  <table class="tableizer-table" width="100%">
+				<caption style="font-size:18px; font-family:DFKai-sb, sans-serif;"><b>Correlation Coefficient</b></caption>
+				<thead><tr class="tableizer-firstrow"><th></th><th>Gold Price</th><th>美國十年期<br>公債殖利率</th><th>美國二年期<br>公債殖利率</th><th>歐元區<br>存款利率</th><th>美國FED<br>利率</th><th>南非十年期<br>公債殖利率</th><th>澳洲利率</th><th>美國<br>實質利率</th><th>印度利率</th><th>中國一年期<br>存款利率</th><th>日本放款<br>利率</th><th>馬來西亞<br>利率</th></tr></thead><tbody>
+				 <tr><td>Pearson<br>相關係數</td><td>1</td><td>-.868**</td><td>-.771**</td><td>-.714**</td><td>-.661**</td><td>-.606**</td><td>-.582**</td><td>-.567**</td><td>-.151*</td><td>.440**</td><td>.197**</td><td>.049</td></tr>
+				 <tr><td>顯著性<br>(雙尾)</td><td>&nbsp;</td><td>.000</td><td>.000</td><td>.000</td><td>.000</td><td>.000</td><td>.000</td><td>.000</td><td>.029</td><td>.000</td><td>.004</td><td>.472</td></tr>
+				 <tr><td>個數</td><td>214</td><td>214</td><td>214</td><td>214</td><td>214</td><td>213</td><td>214</td><td>4650</td><td>209</td><td>214</td><td>214</td><td>214</td></tr>
+			  </tbody></table>
+		   </div>
+
+
+
+        </section><!-- /.content -->
+      </div><!-- /.content-wrapper -->
+      <footer class="main-footer">
+        <div class="pull-right hidden-xs">
+          <b>Version</b> 2.0
+        </div>
+        <strong>Golden Miner &copy; 2017.</strong> All rights reserved.
+      </footer>
+    </div><!-- ./wrapper -->
+
+    <!-- jQuery 2.1.3 -->
+    <script src="../../plugins/jQuery/jQuery-2.1.3.min.js"></script>
+    <!-- Bootstrap 3.3.2 JS -->
+    <script src="../../bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- FastClick -->
+    <script src='../../plugins/fastclick/fastclick.min.js'></script>
+    <!-- AdminLTE App -->
+    <script src="../../dist/js/app.min.js" type="text/javascript"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="../../dist/js/demo.js" type="text/javascript"></script>
+	
+		<!-- amCharts javascript sources -->
+		<script type="text/javascript" src="../../amcharts/amcharts.js"></script>
+		<script type="text/javascript" src="../../amcharts/serial.js"></script>
+		
+		<!-- GoldPrice_rate javascript code -->
+		<script type="text/javascript">
+			AmCharts.makeChart("GoldPrice_rate",
+				{
+					"type": "serial",
+					"categoryField": "Date",
+					"startDuration": 0.3,
+					"startEffect": "easeOutSine",
+					"categoryAxis": {
+						"autoRotateAngle": 0,
+						"gridPosition": "start"
+					},
+					"chartCursor": {
+						"enabled": true,
+						"valueBalloonsEnabled": false
+					},
+					"chartScrollbar": {
+						"enabled": true
+					},
+					"trendLines": [],
+					"graphs": [
+						{
+							"balloonText": "[[title]] of [[category]]:[[value]]",
+							"id": "AmGraph-1",
+							"title": "Gold Price",
+							"valueAxis": "ValueAxis-1",
+							"valueField": "Gold"
+						},
+						{
+							"balloonText": "[[title]] of [[category]]:[[value]]",
+							"id": "AmGraph-2",
+							"title": "美國FED利率(%)",
+							"valueAxis": "ValueAxis-2",
+							"valueField": "美國FED利率(%)"
+						},
+						{
+							"balloonText": "[[title]] of [[category]]:[[value]]",
+							"id": "AmGraph-3",
+							"title": "中國一年期存款利率(%)",
+							"valueAxis": "ValueAxis-2",
+							"valueField": "中國一年期存款利率(%)"
+						},
+						{
+							"balloonText": "[[title]] of [[category]]:[[value]]",
+							"id": "AmGraph-4",
+							"title": "歐元區存款利率(%)",
+							"valueAxis": "ValueAxis-2",
+							"valueField": "歐元區存款利率(%)"
+						},
+						{
+							"balloonText": "[[title]] of [[category]]:[[value]]",
+							"id": "AmGraph-5",
+							"title": "美國十年期公債殖利率(%)",
+							"valueAxis": "ValueAxis-2",
+							"valueField": "美國十年期公債殖利率(%)"
+						},
+						{
+							"balloonText": "[[title]] of [[category]]:[[value]]",
+							"id": "AmGraph-6",
+							"title": "美國二年期公債殖利率(%)",
+							"valueAxis": "ValueAxis-2",
+							"valueField": "美國二年期公債殖利率(%)"
+						},
+						{
+							"balloonText": "[[title]] of [[category]]:[[value]]",
+							"id": "AmGraph-7",
+							"title": "南非十年期公債殖利率(%)",
+							"valueAxis": "ValueAxis-2",
+							"valueField": "南非十年期公債殖利率(%)"
+						}
+					],
+					"guides": [],
+					"valueAxes": [
+						{
+							"id": "ValueAxis-1",
+							"autoRotateCount": 0,
+							"axisAlpha": 0,
+							"title": "USD",
+							"titleRotation": 0
+						},
+						{
+							"id": "ValueAxis-2",
+							"position": "right",
+							"autoRotateAngle": 0,
+							"gridAlpha": 0,
+							"title": "%",
+							"titleRotation": 0
+						}
+					],
+					"allLabels": [],
+					"balloon": {},
+					"legend": {
+						"enabled": true,
+						"rollOverGraphAlpha": 0,
+						"useGraphSettings": true
+					},
+					"titles": [
+						{
+							"id": "Title-1",
+							"size": 15,
+							"text": "Gold Price VS Other Rate"
+						}
+					],
+					"dataProvider": [
+						{
+							"Date": "2000/1/31",
+							"Gold": "284.31",
+							"美國FED利率(%)": "5.5",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "2",
+							"美國十年期公債殖利率(%)": "6.7",
+							"美國二年期公債殖利率(%)": "6.4",
+							"南非十年期公債殖利率(%)": "13.5"
+						},
+						{
+							"Date": "2000/2/29",
+							"Gold": "299.86",
+							"美國FED利率(%)": "5.8",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "2.3",
+							"美國十年期公債殖利率(%)": "6.5",
+							"美國二年期公債殖利率(%)": "6.6",
+							"南非十年期公債殖利率(%)": "13.5"
+						},
+						{
+							"Date": "2000/3/31",
+							"Gold": "286.39",
+							"美國FED利率(%)": "6",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "2.5",
+							"美國十年期公債殖利率(%)": "6.3",
+							"美國二年期公債殖利率(%)": "6.5",
+							"南非十年期公債殖利率(%)": "13.9"
+						},
+						{
+							"Date": "2000/4/29",
+							"Gold": "279.69",
+							"美國FED利率(%)": "6",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "2.8",
+							"美國十年期公債殖利率(%)": "6",
+							"美國二年期公債殖利率(%)": "6.4",
+							"南非十年期公債殖利率(%)": "14.3"
+						},
+						{
+							"Date": "2000/5/31",
+							"Gold": "275.19",
+							"美國FED利率(%)": "6.5",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "2.8",
+							"美國十年期公債殖利率(%)": "6.4",
+							"美國二年期公債殖利率(%)": "6.8",
+							"南非十年期公債殖利率(%)": "14.8"
+						},
+						{
+							"Date": "2000/6/30",
+							"Gold": "285.73",
+							"美國FED利率(%)": "6.5",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "3.3",
+							"美國十年期公債殖利率(%)": "6.1",
+							"美國二年期公債殖利率(%)": "6.5",
+							"南非十年期公債殖利率(%)": "14.3"
+						},
+						{
+							"Date": "2000/7/31",
+							"Gold": "281.59",
+							"美國FED利率(%)": "6.5",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "3.3",
+							"美國十年期公債殖利率(%)": "6.1",
+							"美國二年期公債殖利率(%)": "6.3",
+							"南非十年期公債殖利率(%)": "13.9"
+						},
+						{
+							"Date": "2000/8/31",
+							"Gold": "274.47",
+							"美國FED利率(%)": "6.5",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "3.3",
+							"美國十年期公債殖利率(%)": "5.8",
+							"美國二年期公債殖利率(%)": "6.2",
+							"南非十年期公債殖利率(%)": "13.5"
+						},
+						{
+							"Date": "2000/9/30",
+							"Gold": "273.68",
+							"美國FED利率(%)": "6.5",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "3.5",
+							"美國十年期公債殖利率(%)": "5.8",
+							"美國二年期公債殖利率(%)": "6.1",
+							"南非十年期公債殖利率(%)": "13.7"
+						},
+						{
+							"Date": "2000/10/31",
+							"Gold": "270",
+							"美國FED利率(%)": "6.5",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "3.8",
+							"美國十年期公債殖利率(%)": "5.7",
+							"美國二年期公債殖利率(%)": "5.9",
+							"南非十年期公債殖利率(%)": "13.7"
+						},
+						{
+							"Date": "2000/11/30",
+							"Gold": "266.01",
+							"美國FED利率(%)": "6.5",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "3.8",
+							"美國十年期公債殖利率(%)": "5.7",
+							"美國二年期公債殖利率(%)": "5.9",
+							"南非十年期公債殖利率(%)": "13.4"
+						},
+						{
+							"Date": "2000/12/30",
+							"Gold": "271.45",
+							"美國FED利率(%)": "6.5",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "3.8",
+							"美國十年期公債殖利率(%)": "5.2",
+							"美國二年期公債殖利率(%)": "5.4",
+							"南非十年期公債殖利率(%)": "12.9"
+						},
+						{
+							"Date": "2001/1/31",
+							"Gold": "265.49",
+							"美國FED利率(%)": "5.5",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "3.8",
+							"美國十年期公債殖利率(%)": "5.2",
+							"美國二年期公債殖利率(%)": "4.8",
+							"南非十年期公債殖利率(%)": "12.6"
+						},
+						{
+							"Date": "2001/2/27",
+							"Gold": "261.86",
+							"美國FED利率(%)": "5.5",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "3.8",
+							"美國十年期公債殖利率(%)": "5.1",
+							"美國二年期公債殖利率(%)": "4.7",
+							"南非十年期公債殖利率(%)": "12"
+						},
+						{
+							"Date": "2001/3/30",
+							"Gold": "263.03",
+							"美國FED利率(%)": "5",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "3.8",
+							"美國十年期公債殖利率(%)": "4.9",
+							"美國二年期公債殖利率(%)": "4.3",
+							"南非十年期公債殖利率(%)": "11.8"
+						},
+						{
+							"Date": "2001/4/30",
+							"Gold": "260.48",
+							"美國FED利率(%)": "4.5",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "3.8",
+							"美國十年期公債殖利率(%)": "5.1",
+							"美國二年期公債殖利率(%)": "4.2",
+							"南非十年期公債殖利率(%)": "12.2"
+						},
+						{
+							"Date": "2001/5/31",
+							"Gold": "272.35",
+							"美國FED利率(%)": "4",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "3.5",
+							"美國十年期公債殖利率(%)": "5.4",
+							"美國二年期公債殖利率(%)": "4.3",
+							"南非十年期公債殖利率(%)": "11.9"
+						},
+						{
+							"Date": "2001/6/29",
+							"Gold": "270.23",
+							"美國FED利率(%)": "3.8",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "3.5",
+							"美國十年期公債殖利率(%)": "5.3",
+							"美國二年期公債殖利率(%)": "4.1",
+							"南非十年期公債殖利率(%)": "11.3"
+						},
+						{
+							"Date": "2001/7/31",
+							"Gold": "267.53",
+							"美國FED利率(%)": "3.8",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "3.5",
+							"美國十年期公債殖利率(%)": "5.2",
+							"美國二年期公債殖利率(%)": "4",
+							"南非十年期公債殖利率(%)": "10.9"
+						},
+						{
+							"Date": "2001/8/31",
+							"Gold": "272.39",
+							"美國FED利率(%)": "3.5",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "3.3",
+							"美國十年期公債殖利率(%)": "5",
+							"美國二年期公債殖利率(%)": "3.8",
+							"南非十年期公債殖利率(%)": "10.8"
+						},
+						{
+							"Date": "2001/9/28",
+							"Gold": "283.42",
+							"美國FED利率(%)": "3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "2.8",
+							"美國十年期公債殖利率(%)": "4.7",
+							"美國二年期公債殖利率(%)": "3.1",
+							"南非十年期公債殖利率(%)": "10.8"
+						},
+						{
+							"Date": "2001/10/31",
+							"Gold": "283.06",
+							"美國FED利率(%)": "2.5",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "2.8",
+							"美國十年期公債殖利率(%)": "4.6",
+							"美國二年期公債殖利率(%)": "2.7",
+							"南非十年期公債殖利率(%)": "10.7"
+						},
+						{
+							"Date": "2001/11/30",
+							"Gold": "276.16",
+							"美國FED利率(%)": "2",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "2.3",
+							"美國十年期公債殖利率(%)": "4.7",
+							"美國二年期公債殖利率(%)": "2.8",
+							"南非十年期公債殖利率(%)": "10.3"
+						},
+						{
+							"Date": "2001/12/31",
+							"Gold": "275.85",
+							"美國FED利率(%)": "1.8",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "2.3",
+							"美國十年期公債殖利率(%)": "5.1",
+							"美國二年期公債殖利率(%)": "3.1",
+							"南非十年期公債殖利率(%)": "11.6"
+						},
+						{
+							"Date": "2002/1/31",
+							"Gold": "281.51",
+							"美國FED利率(%)": "1.8",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "2.3",
+							"美國十年期公債殖利率(%)": "5",
+							"美國二年期公債殖利率(%)": "3",
+							"南非十年期公債殖利率(%)": "11.6"
+						},
+						{
+							"Date": "2002/2/27",
+							"Gold": "295.49",
+							"美國FED利率(%)": "1.8",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "2.3",
+							"美國十年期公債殖利率(%)": "4.9",
+							"美國二年期公債殖利率(%)": "3",
+							"南非十年期公債殖利率(%)": "11.9"
+						},
+						{
+							"Date": "2002/3/29",
+							"Gold": "294.05",
+							"美國FED利率(%)": "1.8",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "2.3",
+							"美國十年期公債殖利率(%)": "5.3",
+							"美國二年期公債殖利率(%)": "3.6",
+							"南非十年期公債殖利率(%)": "12.6"
+						},
+						{
+							"Date": "2002/4/30",
+							"Gold": "302.68",
+							"美國FED利率(%)": "1.8",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "2.3",
+							"美國十年期公債殖利率(%)": "5.2",
+							"美國二年期公債殖利率(%)": "3.4",
+							"南非十年期公債殖利率(%)": "12.5"
+						},
+						{
+							"Date": "2002/5/31",
+							"Gold": "314.49",
+							"美國FED利率(%)": "1.8",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "2.3",
+							"美國十年期公債殖利率(%)": "5.2",
+							"美國二年期公債殖利率(%)": "3.3",
+							"南非十年期公債殖利率(%)": "11.7"
+						},
+						{
+							"Date": "2002/6/28",
+							"Gold": "321.18",
+							"美國FED利率(%)": "1.8",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "2.3",
+							"美國十年期公債殖利率(%)": "4.9",
+							"美國二年期公債殖利率(%)": "3",
+							"南非十年期公債殖利率(%)": "11.6"
+						},
+						{
+							"Date": "2002/7/31",
+							"Gold": "313.29",
+							"美國FED利率(%)": "1.8",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "2.3",
+							"美國十年期公債殖利率(%)": "4.7",
+							"美國二年期公債殖利率(%)": "2.6",
+							"南非十年期公債殖利率(%)": "11.2"
+						},
+						{
+							"Date": "2002/8/30",
+							"Gold": "310.25",
+							"美國FED利率(%)": "1.8",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "2.3",
+							"美國十年期公債殖利率(%)": "4.3",
+							"美國二年期公債殖利率(%)": "2.1",
+							"南非十年期公債殖利率(%)": "11.1"
+						},
+						{
+							"Date": "2002/9/30",
+							"Gold": "319.14",
+							"美國FED利率(%)": "1.8",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "2.3",
+							"美國十年期公債殖利率(%)": "3.9",
+							"美國二年期公債殖利率(%)": "2",
+							"南非十年期公債殖利率(%)": "11.4"
+						},
+						{
+							"Date": "2002/10/31",
+							"Gold": "316.56",
+							"美國FED利率(%)": "1.8",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "2.3",
+							"美國十年期公債殖利率(%)": "3.9",
+							"美國二年期公債殖利率(%)": "1.9",
+							"南非十年期公債殖利率(%)": "11.3"
+						},
+						{
+							"Date": "2002/11/29",
+							"Gold": "319.07",
+							"美國FED利率(%)": "1.3",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "2.3",
+							"美國十年期公債殖利率(%)": "4.1",
+							"美國二年期公債殖利率(%)": "1.9",
+							"南非十年期公債殖利率(%)": "10.9"
+						},
+						{
+							"Date": "2002/12/31",
+							"Gold": "331.92",
+							"美國FED利率(%)": "1.3",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1.8",
+							"美國十年期公債殖利率(%)": "4",
+							"美國二年期公債殖利率(%)": "1.8",
+							"南非十年期公債殖利率(%)": "10.4"
+						},
+						{
+							"Date": "2003/1/28",
+							"Gold": "356.86",
+							"美國FED利率(%)": "1.3",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1.8",
+							"美國十年期公債殖利率(%)": "4.1",
+							"美國二年期公債殖利率(%)": "1.7",
+							"南非十年期公債殖利率(%)": "10.2"
+						},
+						{
+							"Date": "2003/2/27",
+							"Gold": "358.97",
+							"美國FED利率(%)": "1.3",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1.8",
+							"美國十年期公債殖利率(%)": "3.9",
+							"美國二年期公債殖利率(%)": "1.6",
+							"南非十年期公債殖利率(%)": "9.9"
+						},
+						{
+							"Date": "2003/3/31",
+							"Gold": "340.55",
+							"美國FED利率(%)": "1.3",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1.5",
+							"美國十年期公債殖利率(%)": "3.8",
+							"美國二年期公債殖利率(%)": "1.6",
+							"南非十年期公債殖利率(%)": "10"
+						},
+						{
+							"Date": "2003/4/30",
+							"Gold": "328.18",
+							"美國FED利率(%)": "1.3",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1.5",
+							"美國十年期公債殖利率(%)": "4",
+							"美國二年期公債殖利率(%)": "1.6",
+							"南非十年期公債殖利率(%)": "9.9"
+						},
+						{
+							"Date": "2003/5/30",
+							"Gold": "355.68",
+							"美國FED利率(%)": "1.3",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1.5",
+							"美國十年期公債殖利率(%)": "3.6",
+							"美國二年期公債殖利率(%)": "1.4",
+							"南非十年期公債殖利率(%)": "9.8"
+						},
+						{
+							"Date": "2003/6/30",
+							"Gold": "356.35",
+							"美國FED利率(%)": "1",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "3.3",
+							"美國二年期公債殖利率(%)": "1.2",
+							"南非十年期公債殖利率(%)": "9.3"
+						},
+						{
+							"Date": "2003/7/31",
+							"Gold": "351.02",
+							"美國FED利率(%)": "1",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4",
+							"美國二年期公債殖利率(%)": "1.5",
+							"南非十年期公債殖利率(%)": "9.6"
+						},
+						{
+							"Date": "2003/8/29",
+							"Gold": "359.77",
+							"美國FED利率(%)": "1",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.5",
+							"美國二年期公債殖利率(%)": "1.9",
+							"南非十年期公債殖利率(%)": "9.6"
+						},
+						{
+							"Date": "2003/9/30",
+							"Gold": "378.95",
+							"美國FED利率(%)": "1",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.3",
+							"美國二年期公債殖利率(%)": "1.7",
+							"南非十年期公債殖利率(%)": "9.6"
+						},
+						{
+							"Date": "2003/10/31",
+							"Gold": "378.92",
+							"美國FED利率(%)": "1",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.3",
+							"美國二年期公債殖利率(%)": "1.8",
+							"南非十年期公債殖利率(%)": "9.1"
+						},
+						{
+							"Date": "2003/11/28",
+							"Gold": "389.91",
+							"美國FED利率(%)": "1",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.3",
+							"美國二年期公債殖利率(%)": "1.9",
+							"南非十年期公債殖利率(%)": "9.3"
+						},
+						{
+							"Date": "2003/12/31",
+							"Gold": "406.95",
+							"美國FED利率(%)": "1",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.3",
+							"美國二年期公債殖利率(%)": "1.9",
+							"南非十年期公債殖利率(%)": "9.2"
+						},
+						{
+							"Date": "2004/1/30",
+							"Gold": "413.79",
+							"美國FED利率(%)": "1",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.2",
+							"美國二年期公債殖利率(%)": "1.8",
+							"南非十年期公債殖利率(%)": "9.3"
+						},
+						{
+							"Date": "2004/2/27",
+							"Gold": "404.88",
+							"美國FED利率(%)": "1",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.1",
+							"美國二年期公債殖利率(%)": "1.7",
+							"南非十年期公債殖利率(%)": "9.4"
+						},
+						{
+							"Date": "2004/3/31",
+							"Gold": "406.67",
+							"美國FED利率(%)": "1",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "3.8",
+							"美國二年期公債殖利率(%)": "1.6",
+							"南非十年期公債殖利率(%)": "9.6"
+						},
+						{
+							"Date": "2004/4/30",
+							"Gold": "403.26",
+							"美國FED利率(%)": "1",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.4",
+							"美國二年期公債殖利率(%)": "2.1",
+							"南非十年期公債殖利率(%)": "9.9"
+						},
+						{
+							"Date": "2004/5/31",
+							"Gold": "383.78",
+							"美國FED利率(%)": "1",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.7",
+							"美國二年期公債殖利率(%)": "2.5",
+							"南非十年期公債殖利率(%)": "10.2"
+						},
+						{
+							"Date": "2004/6/30",
+							"Gold": "392.37",
+							"美國FED利率(%)": "1.3",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.7",
+							"美國二年期公債殖利率(%)": "2.8",
+							"南非十年期公債殖利率(%)": "10.4"
+						},
+						{
+							"Date": "2004/7/30",
+							"Gold": "398.09",
+							"美國FED利率(%)": "1.3",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.5",
+							"美國二年期公債殖利率(%)": "2.6",
+							"南非十年期公債殖利率(%)": "10.1"
+						},
+						{
+							"Date": "2004/8/31",
+							"Gold": "400.51",
+							"美國FED利率(%)": "1.5",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.3",
+							"美國二年期公債殖利率(%)": "2.5",
+							"南非十年期公債殖利率(%)": "9.7"
+						},
+						{
+							"Date": "2004/9/30",
+							"Gold": "405.27",
+							"美國FED利率(%)": "1.8",
+							"中國一年期存款利率(%)": "2",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.1",
+							"美國二年期公債殖利率(%)": "2.5",
+							"南非十年期公債殖利率(%)": "9.3"
+						},
+						{
+							"Date": "2004/10/29",
+							"Gold": "420.46",
+							"美國FED利率(%)": "1.8",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.1",
+							"美國二年期公債殖利率(%)": "2.6",
+							"南非十年期公債殖利率(%)": "9.2"
+						},
+						{
+							"Date": "2004/11/30",
+							"Gold": "439.37",
+							"美國FED利率(%)": "2",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.2",
+							"美國二年期公債殖利率(%)": "2.9",
+							"南非十年期公債殖利率(%)": "9"
+						},
+						{
+							"Date": "2004/12/31",
+							"Gold": "442.08",
+							"美國FED利率(%)": "2.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.2",
+							"美國二年期公債殖利率(%)": "3",
+							"南非十年期公債殖利率(%)": "8.4"
+						},
+						{
+							"Date": "2005/1/31",
+							"Gold": "424.03",
+							"美國FED利率(%)": "2.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.2",
+							"美國二年期公債殖利率(%)": "3.2",
+							"南非十年期公債殖利率(%)": "8.2"
+						},
+						{
+							"Date": "2005/2/25",
+							"Gold": "423.35",
+							"美國FED利率(%)": "2.5",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.2",
+							"美國二年期公債殖利率(%)": "3.4",
+							"南非十年期公債殖利率(%)": "7.9"
+						},
+						{
+							"Date": "2005/3/31",
+							"Gold": "434.32",
+							"美國FED利率(%)": "2.8",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.5",
+							"美國二年期公債殖利率(%)": "3.7",
+							"南非十年期公債殖利率(%)": "8.2"
+						},
+						{
+							"Date": "2005/4/29",
+							"Gold": "429.23",
+							"美國FED利率(%)": "2.8",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.3",
+							"美國二年期公債殖利率(%)": "3.7",
+							"南非十年期公債殖利率(%)": "8.5"
+						},
+						{
+							"Date": "2005/5/31",
+							"Gold": "421.87",
+							"美國FED利率(%)": "3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.1",
+							"美國二年期公債殖利率(%)": "3.6",
+							"南非十年期公債殖利率(%)": "8.4"
+						},
+						{
+							"Date": "2005/6/30",
+							"Gold": "430.66",
+							"美國FED利率(%)": "3.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4",
+							"美國二年期公債殖利率(%)": "3.6",
+							"南非十年期公債殖利率(%)": "8.1"
+						},
+						{
+							"Date": "2005/7/29",
+							"Gold": "424.48",
+							"美國FED利率(%)": "3.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.2",
+							"美國二年期公債殖利率(%)": "3.9",
+							"南非十年期公債殖利率(%)": "8.1"
+						},
+						{
+							"Date": "2005/8/31",
+							"Gold": "437.93",
+							"美國FED利率(%)": "3.5",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.3",
+							"美國二年期公債殖利率(%)": "4",
+							"南非十年期公債殖利率(%)": "7.9"
+						},
+						{
+							"Date": "2005/9/30",
+							"Gold": "456.05",
+							"美國FED利率(%)": "3.8",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.2",
+							"美國二年期公債殖利率(%)": "4",
+							"南非十年期公債殖利率(%)": "8"
+						},
+						{
+							"Date": "2005/10/31",
+							"Gold": "469.9",
+							"美國FED利率(%)": "3.8",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.5",
+							"美國二年期公債殖利率(%)": "4.3",
+							"南非十年期公債殖利率(%)": "8.1"
+						},
+						{
+							"Date": "2005/11/30",
+							"Gold": "476.67",
+							"美國FED利率(%)": "4",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "4.5",
+							"美國二年期公債殖利率(%)": "4.4",
+							"南非十年期公債殖利率(%)": "7.9"
+						},
+						{
+							"Date": "2005/12/30",
+							"Gold": "510.1",
+							"美國FED利率(%)": "4.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1.3",
+							"美國十年期公債殖利率(%)": "4.5",
+							"美國二年期公債殖利率(%)": "4.4",
+							"南非十年期公債殖利率(%)": "7.6"
+						},
+						{
+							"Date": "2006/1/25",
+							"Gold": "549.86",
+							"美國FED利率(%)": "4.5",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1.3",
+							"美國十年期公債殖利率(%)": "4.4",
+							"美國二年期公債殖利率(%)": "4.4",
+							"南非十年期公債殖利率(%)": "7.4"
+						},
+						{
+							"Date": "2006/2/27",
+							"Gold": "554.99",
+							"美國FED利率(%)": "4.5",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1.5",
+							"美國十年期公債殖利率(%)": "4.6",
+							"美國二年期公債殖利率(%)": "4.7",
+							"南非十年期公債殖利率(%)": "7.3"
+						},
+						{
+							"Date": "2006/3/31",
+							"Gold": "557.09",
+							"美國FED利率(%)": "4.8",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1.5",
+							"美國十年期公債殖利率(%)": "4.7",
+							"美國二年期公債殖利率(%)": "4.7",
+							"南非十年期公債殖利率(%)": "7.4"
+						},
+						{
+							"Date": "2006/4/28",
+							"Gold": "610.65",
+							"美國FED利率(%)": "4.8",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1.5",
+							"美國十年期公債殖利率(%)": "5",
+							"美國二年期公債殖利率(%)": "4.9",
+							"南非十年期公債殖利率(%)": "7.5"
+						},
+						{
+							"Date": "2006/5/30",
+							"Gold": "675.39",
+							"美國FED利率(%)": "5",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1.5",
+							"美國十年期公債殖利率(%)": "5.1",
+							"美國二年期公債殖利率(%)": "5",
+							"南非十年期公債殖利率(%)": "7.6"
+						},
+						{
+							"Date": "2006/6/30",
+							"Gold": "596.15",
+							"美國FED利率(%)": "5.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1.8",
+							"美國十年期公債殖利率(%)": "5.1",
+							"美國二年期公債殖利率(%)": "5.1",
+							"南非十年期公債殖利率(%)": "8.3"
+						},
+						{
+							"Date": "2006/7/31",
+							"Gold": "633.71",
+							"美國FED利率(%)": "5.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1.8",
+							"美國十年期公債殖利率(%)": "5.1",
+							"美國二年期公債殖利率(%)": "5.1",
+							"南非十年期公債殖利率(%)": "8.6"
+						},
+						{
+							"Date": "2006/8/31",
+							"Gold": "632.59",
+							"美國FED利率(%)": "5.3",
+							"中國一年期存款利率(%)": "2.5",
+							"歐元區存款利率(%)": "2",
+							"美國十年期公債殖利率(%)": "4.9",
+							"美國二年期公債殖利率(%)": "4.9",
+							"南非十年期公債殖利率(%)": "8.6"
+						},
+						{
+							"Date": "2006/9/29",
+							"Gold": "598.19",
+							"美國FED利率(%)": "5.3",
+							"中國一年期存款利率(%)": "2.5",
+							"歐元區存款利率(%)": "2",
+							"美國十年期公債殖利率(%)": "4.7",
+							"美國二年期公債殖利率(%)": "4.8",
+							"南非十年期公債殖利率(%)": "8.6"
+						},
+						{
+							"Date": "2006/10/31",
+							"Gold": "585.78",
+							"美國FED利率(%)": "5.3",
+							"中國一年期存款利率(%)": "2.5",
+							"歐元區存款利率(%)": "2.3",
+							"美國十年期公債殖利率(%)": "4.7",
+							"美國二年期公債殖利率(%)": "4.8",
+							"南非十年期公債殖利率(%)": "8.4"
+						},
+						{
+							"Date": "2006/11/30",
+							"Gold": "627.83",
+							"美國FED利率(%)": "5.3",
+							"中國一年期存款利率(%)": "2.5",
+							"歐元區存款利率(%)": "2.3",
+							"美國十年期公債殖利率(%)": "4.6",
+							"美國二年期公債殖利率(%)": "4.7",
+							"南非十年期公債殖利率(%)": "7.9"
+						},
+						{
+							"Date": "2006/12/29",
+							"Gold": "629.79",
+							"美國FED利率(%)": "5.3",
+							"中國一年期存款利率(%)": "2.5",
+							"歐元區存款利率(%)": "2.5",
+							"美國十年期公債殖利率(%)": "4.6",
+							"美國二年期公債殖利率(%)": "4.7",
+							"南非十年期公債殖利率(%)": "7.8"
+						},
+						{
+							"Date": "2007/1/31",
+							"Gold": "631.17",
+							"美國FED利率(%)": "5.3",
+							"中國一年期存款利率(%)": "2.5",
+							"歐元區存款利率(%)": "2.5",
+							"美國十年期公債殖利率(%)": "4.8",
+							"美國二年期公債殖利率(%)": "4.9",
+							"南非十年期公債殖利率(%)": "7.7"
+						},
+						{
+							"Date": "2007/2/27",
+							"Gold": "664.74",
+							"美國FED利率(%)": "5.3",
+							"中國一年期存款利率(%)": "2.5",
+							"歐元區存款利率(%)": "2.5",
+							"美國十年期公債殖利率(%)": "4.7",
+							"美國二年期公債殖利率(%)": "4.9",
+							"南非十年期公債殖利率(%)": "7.5"
+						},
+						{
+							"Date": "2007/3/30",
+							"Gold": "654.9",
+							"美國FED利率(%)": "5.3",
+							"中國一年期存款利率(%)": "2.8",
+							"歐元區存款利率(%)": "2.8",
+							"美國十年期公債殖利率(%)": "4.6",
+							"美國二年期公債殖利率(%)": "4.6",
+							"南非十年期公債殖利率(%)": "7.6"
+						},
+						{
+							"Date": "2007/4/30",
+							"Gold": "679.37",
+							"美國FED利率(%)": "5.3",
+							"中國一年期存款利率(%)": "2.8",
+							"歐元區存款利率(%)": "2.8",
+							"美國十年期公債殖利率(%)": "4.7",
+							"美國二年期公債殖利率(%)": "4.7",
+							"南非十年期公債殖利率(%)": "7.6"
+						},
+						{
+							"Date": "2007/5/31",
+							"Gold": "666.86",
+							"美國FED利率(%)": "5.3",
+							"中國一年期存款利率(%)": "3.1",
+							"歐元區存款利率(%)": "2.8",
+							"美國十年期公債殖利率(%)": "4.8",
+							"美國二年期公債殖利率(%)": "4.8",
+							"南非十年期公債殖利率(%)": "7.6"
+						},
+						{
+							"Date": "2007/6/29",
+							"Gold": "655.49",
+							"美國FED利率(%)": "5.3",
+							"中國一年期存款利率(%)": "3.1",
+							"歐元區存款利率(%)": "3",
+							"美國十年期公債殖利率(%)": "5.1",
+							"美國二年期公債殖利率(%)": "5",
+							"南非十年期公債殖利率(%)": "8.1"
+						},
+						{
+							"Date": "2007/7/31",
+							"Gold": "665.3",
+							"美國FED利率(%)": "5.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "3",
+							"美國十年期公債殖利率(%)": "5",
+							"美國二年期公債殖利率(%)": "4.8",
+							"南非十年期公債殖利率(%)": "8.3"
+						},
+						{
+							"Date": "2007/8/31",
+							"Gold": "665.41",
+							"美國FED利率(%)": "5.3",
+							"中國一年期存款利率(%)": "3.6",
+							"歐元區存款利率(%)": "3",
+							"美國十年期公債殖利率(%)": "4.7",
+							"美國二年期公債殖利率(%)": "4.3",
+							"南非十年期公債殖利率(%)": "8.4"
+						},
+						{
+							"Date": "2007/9/29",
+							"Gold": "712.65",
+							"美國FED利率(%)": "4.8",
+							"中國一年期存款利率(%)": "3.9",
+							"歐元區存款利率(%)": "3",
+							"美國十年期公債殖利率(%)": "4.5",
+							"美國二年期公債殖利率(%)": "4",
+							"南非十年期公債殖利率(%)": "8.5"
+						},
+						{
+							"Date": "2007/10/31",
+							"Gold": "754.6",
+							"美國FED利率(%)": "4.5",
+							"中國一年期存款利率(%)": "3.9",
+							"歐元區存款利率(%)": "3",
+							"美國十年期公債殖利率(%)": "4.5",
+							"美國二年期公債殖利率(%)": "4",
+							"南非十年期公債殖利率(%)": "8.1"
+						},
+						{
+							"Date": "2007/11/30",
+							"Gold": "806.25",
+							"美國FED利率(%)": "4.5",
+							"中國一年期存款利率(%)": "3.9",
+							"歐元區存款利率(%)": "3",
+							"美國十年期公債殖利率(%)": "4.2",
+							"美國二年期公債殖利率(%)": "3.3",
+							"南非十年期公債殖利率(%)": "8.2"
+						},
+						{
+							"Date": "2007/12/31",
+							"Gold": "803.2",
+							"美國FED利率(%)": "4.3",
+							"中國一年期存款利率(%)": "4.1",
+							"歐元區存款利率(%)": "3",
+							"美國十年期公債殖利率(%)": "4.1",
+							"美國二年期公債殖利率(%)": "3.1",
+							"南非十年期公債殖利率(%)": "8.3"
+						},
+						{
+							"Date": "2008/1/31",
+							"Gold": "889.6",
+							"美國FED利率(%)": "3",
+							"中國一年期存款利率(%)": "4.1",
+							"歐元區存款利率(%)": "3",
+							"美國十年期公債殖利率(%)": "3.7",
+							"美國二年期公債殖利率(%)": "2.5",
+							"南非十年期公債殖利率(%)": "8.4"
+						},
+						{
+							"Date": "2008/2/29",
+							"Gold": "922.3",
+							"美國FED利率(%)": "3",
+							"中國一年期存款利率(%)": "4.1",
+							"歐元區存款利率(%)": "3",
+							"美國十年期公債殖利率(%)": "3.7",
+							"美國二年期公債殖利率(%)": "2",
+							"南非十年期公債殖利率(%)": "8.7"
+						},
+						{
+							"Date": "2008/3/31",
+							"Gold": "968.43",
+							"美國FED利率(%)": "2.3",
+							"中國一年期存款利率(%)": "4.1",
+							"歐元區存款利率(%)": "3",
+							"美國十年期公債殖利率(%)": "3.5",
+							"美國二年期公債殖利率(%)": "1.6",
+							"南非十年期公債殖利率(%)": "9.2"
+						},
+						{
+							"Date": "2008/4/30",
+							"Gold": "909.7",
+							"美國FED利率(%)": "2",
+							"中國一年期存款利率(%)": "4.1",
+							"歐元區存款利率(%)": "3",
+							"美國十年期公債殖利率(%)": "3.7",
+							"美國二年期公債殖利率(%)": "2.1",
+							"南非十年期公債殖利率(%)": "9.2"
+						},
+						{
+							"Date": "2008/5/30",
+							"Gold": "888.66",
+							"美國FED利率(%)": "2",
+							"中國一年期存款利率(%)": "4.1",
+							"歐元區存款利率(%)": "3",
+							"美國十年期公債殖利率(%)": "3.9",
+							"美國二年期公債殖利率(%)": "2.5",
+							"南非十年期公債殖利率(%)": "9.5"
+						},
+						{
+							"Date": "2008/6/30",
+							"Gold": "889.49",
+							"美國FED利率(%)": "2",
+							"中國一年期存款利率(%)": "4.1",
+							"歐元區存款利率(%)": "3",
+							"美國十年期公債殖利率(%)": "4.1",
+							"美國二年期公債殖利率(%)": "2.8",
+							"南非十年期公債殖利率(%)": "10.4"
+						},
+						{
+							"Date": "2008/7/31",
+							"Gold": "939.77",
+							"美國FED利率(%)": "2",
+							"中國一年期存款利率(%)": "4.1",
+							"歐元區存款利率(%)": "3.3",
+							"美國十年期公債殖利率(%)": "4",
+							"美國二年期公債殖利率(%)": "2.6",
+							"南非十年期公債殖利率(%)": "10.1"
+						},
+						{
+							"Date": "2008/8/29",
+							"Gold": "839.03",
+							"美國FED利率(%)": "2",
+							"中國一年期存款利率(%)": "4.1",
+							"歐元區存款利率(%)": "3.3",
+							"美國十年期公債殖利率(%)": "3.9",
+							"美國二年期公債殖利率(%)": "2.4",
+							"南非十年期公債殖利率(%)": "9.2"
+						},
+						{
+							"Date": "2008/9/30",
+							"Gold": "829.93",
+							"美國FED利率(%)": "2",
+							"中國一年期存款利率(%)": "4.1",
+							"歐元區存款利率(%)": "3.3",
+							"美國十年期公債殖利率(%)": "3.7",
+							"美國二年期公債殖利率(%)": "2.1",
+							"南非十年期公債殖利率(%)": "9"
+						},
+						{
+							"Date": "2008/10/31",
+							"Gold": "806.62",
+							"美國FED利率(%)": "1.5",
+							"中國一年期存款利率(%)": "3.6",
+							"歐元區存款利率(%)": "3.3",
+							"美國十年期公債殖利率(%)": "3.8",
+							"美國二年期公債殖利率(%)": "1.6",
+							"南非十年期公債殖利率(%)": "9.2"
+						},
+						{
+							"Date": "2008/11/28",
+							"Gold": "760.86",
+							"美國FED利率(%)": "1",
+							"中國一年期存款利率(%)": "2.5",
+							"歐元區存款利率(%)": "2.8",
+							"美國十年期公債殖利率(%)": "3.5",
+							"美國二年期公債殖利率(%)": "1.2",
+							"南非十年期公債殖利率(%)": "8.6"
+						},
+						{
+							"Date": "2008/12/31",
+							"Gold": "816.09",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "2",
+							"美國十年期公債殖利率(%)": "2.4",
+							"美國二年期公債殖利率(%)": "0.8",
+							"南非十年期公債殖利率(%)": "7.8"
+						},
+						{
+							"Date": "2009/1/21",
+							"Gold": "858.69",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "2.5",
+							"美國二年期公債殖利率(%)": "0.8",
+							"南非十年期公債殖利率(%)": "7.9"
+						},
+						{
+							"Date": "2009/2/27",
+							"Gold": "943.16",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "1",
+							"美國十年期公債殖利率(%)": "2.9",
+							"美國二年期公債殖利率(%)": "1",
+							"南非十年期公債殖利率(%)": "8.3"
+						},
+						{
+							"Date": "2009/3/31",
+							"Gold": "924.27",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "0.5",
+							"美國十年期公債殖利率(%)": "2.8",
+							"美國二年期公債殖利率(%)": "0.9",
+							"南非十年期公債殖利率(%)": "8.4"
+						},
+						{
+							"Date": "2009/4/30",
+							"Gold": "890.2",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "2.9",
+							"美國二年期公債殖利率(%)": "0.9",
+							"南非十年期公債殖利率(%)": "8.6"
+						},
+						{
+							"Date": "2009/5/27",
+							"Gold": "928.64",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "3.3",
+							"美國二年期公債殖利率(%)": "0.9",
+							"南非十年期公債殖利率(%)": "8.7"
+						},
+						{
+							"Date": "2009/6/30",
+							"Gold": "945.67",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "3.7",
+							"美國二年期公債殖利率(%)": "1.2",
+							"南非十年期公債殖利率(%)": "8.9"
+						},
+						{
+							"Date": "2009/7/31",
+							"Gold": "934.23",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "3.6",
+							"美國二年期公債殖利率(%)": "1",
+							"南非十年期公債殖利率(%)": "9.1"
+						},
+						{
+							"Date": "2009/8/31",
+							"Gold": "949.38",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "3.6",
+							"美國二年期公債殖利率(%)": "1.1",
+							"南非十年期公債殖利率(%)": "8.8"
+						},
+						{
+							"Date": "2009/9/30",
+							"Gold": "996.59",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "3.4",
+							"美國二年期公債殖利率(%)": "1",
+							"南非十年期公債殖利率(%)": "8.7"
+						},
+						{
+							"Date": "2009/10/30",
+							"Gold": "1043.16",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "3.4",
+							"美國二年期公債殖利率(%)": "1",
+							"南非十年期公債殖利率(%)": "9.1"
+						},
+						{
+							"Date": "2009/11/30",
+							"Gold": "1127.04",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "3.4",
+							"美國二年期公債殖利率(%)": "0.8",
+							"南非十年期公債殖利率(%)": "9"
+						},
+						{
+							"Date": "2009/12/31",
+							"Gold": "1134.72",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "3.6",
+							"美國二年期公債殖利率(%)": "0.9",
+							"南非十年期公債殖利率(%)": "9"
+						},
+						{
+							"Date": "2010/1/29",
+							"Gold": "1117.96",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "3.7",
+							"美國二年期公債殖利率(%)": "0.9",
+							"南非十年期公債殖利率(%)": "9.2"
+						},
+						{
+							"Date": "2010/2/26",
+							"Gold": "1095.41",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "3.7",
+							"美國二年期公債殖利率(%)": "0.9",
+							"南非十年期公債殖利率(%)": "9.1"
+						},
+						{
+							"Date": "2010/3/31",
+							"Gold": "1113.34",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "3.7",
+							"美國二年期公債殖利率(%)": "1",
+							"南非十年期公債殖利率(%)": "8.9"
+						},
+						{
+							"Date": "2010/4/30",
+							"Gold": "1148.69",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "3.9",
+							"美國二年期公債殖利率(%)": "1.1",
+							"南非十年期公債殖利率(%)": "8.8"
+						},
+						{
+							"Date": "2010/5/31",
+							"Gold": "1205.43",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "3.4",
+							"美國二年期公債殖利率(%)": "0.8",
+							"南非十年期公債殖利率(%)": "9"
+						},
+						{
+							"Date": "2010/6/30",
+							"Gold": "1232.92",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "3.2",
+							"美國二年期公債殖利率(%)": "0.7",
+							"南非十年期公債殖利率(%)": "9"
+						},
+						{
+							"Date": "2010/7/30",
+							"Gold": "1192.97",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "3",
+							"美國二年期公債殖利率(%)": "0.6",
+							"南非十年期公債殖利率(%)": "8.8"
+						},
+						{
+							"Date": "2010/8/31",
+							"Gold": "1215.81",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "2.7",
+							"美國二年期公債殖利率(%)": "0.5",
+							"南非十年期公債殖利率(%)": "8.2"
+						},
+						{
+							"Date": "2010/9/30",
+							"Gold": "1270.98",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "2.7",
+							"美國二年期公債殖利率(%)": "0.5",
+							"南非十年期公債殖利率(%)": "7.9"
+						},
+						{
+							"Date": "2010/10/29",
+							"Gold": "1342.02",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.5",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "2.5",
+							"美國二年期公債殖利率(%)": "0.4",
+							"南非十年期公債殖利率(%)": "8"
+						},
+						{
+							"Date": "2010/11/30",
+							"Gold": "1369.89",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.5",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "2.8",
+							"美國二年期公債殖利率(%)": "0.5",
+							"南非十年期公債殖利率(%)": "8.1"
+						},
+						{
+							"Date": "2010/12/31",
+							"Gold": "1390.55",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.8",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "3.3",
+							"美國二年期公債殖利率(%)": "0.6",
+							"南非十年期公債殖利率(%)": "8.4"
+						},
+						{
+							"Date": "2011/1/28",
+							"Gold": "1356.4",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.8",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "3.4",
+							"美國二年期公債殖利率(%)": "0.6",
+							"南非十年期公債殖利率(%)": "8.5"
+						},
+						{
+							"Date": "2011/2/25",
+							"Gold": "1372.73",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "3.6",
+							"美國二年期公債殖利率(%)": "0.8",
+							"南非十年期公債殖利率(%)": "8.7"
+						},
+						{
+							"Date": "2011/3/31",
+							"Gold": "1424.01",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "3.4",
+							"美國二年期公債殖利率(%)": "0.7",
+							"南非十年期公債殖利率(%)": "8.9"
+						},
+						{
+							"Date": "2011/4/29",
+							"Gold": "1473.81",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0.5",
+							"美國十年期公債殖利率(%)": "3.5",
+							"美國二年期公債殖利率(%)": "0.7",
+							"南非十年期公債殖利率(%)": "8.7"
+						},
+						{
+							"Date": "2011/5/31",
+							"Gold": "1510.44",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0.5",
+							"美國十年期公債殖利率(%)": "3.2",
+							"美國二年期公債殖利率(%)": "0.6",
+							"南非十年期公債殖利率(%)": "8.6"
+						},
+						{
+							"Date": "2011/6/30",
+							"Gold": "1528.66",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0.5",
+							"美國十年期公債殖利率(%)": "3",
+							"美國二年期公債殖利率(%)": "0.4",
+							"南非十年期公債殖利率(%)": "8.5"
+						},
+						{
+							"Date": "2011/7/29",
+							"Gold": "1572.81",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.5",
+							"歐元區存款利率(%)": "0.8",
+							"美國十年期公債殖利率(%)": "3",
+							"美國二年期公債殖利率(%)": "0.4",
+							"南非十年期公債殖利率(%)": "8.6"
+						},
+						{
+							"Date": "2011/8/31",
+							"Gold": "1755.81",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.5",
+							"歐元區存款利率(%)": "0.8",
+							"美國十年期公債殖利率(%)": "2.3",
+							"美國二年期公債殖利率(%)": "0.2",
+							"南非十年期公債殖利率(%)": "8.1"
+						},
+						{
+							"Date": "2011/9/30",
+							"Gold": "1771.85",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.5",
+							"歐元區存款利率(%)": "0.8",
+							"美國十年期公債殖利率(%)": "2",
+							"美國二年期公債殖利率(%)": "0.2",
+							"南非十年期公債殖利率(%)": "8.3"
+						},
+						{
+							"Date": "2011/10/31",
+							"Gold": "1665.21",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.5",
+							"歐元區存款利率(%)": "0.8",
+							"美國十年期公債殖利率(%)": "2.2",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "8.4"
+						},
+						{
+							"Date": "2011/11/30",
+							"Gold": "1738.98",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.5",
+							"歐元區存款利率(%)": "0.5",
+							"美國十年期公債殖利率(%)": "2",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "8.5"
+						},
+						{
+							"Date": "2011/12/30",
+							"Gold": "1652.31",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.5",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "2",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "8.5"
+						},
+						{
+							"Date": "2012/1/31",
+							"Gold": "1656.12",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.5",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "2",
+							"美國二年期公債殖利率(%)": "0.2",
+							"南非十年期公債殖利率(%)": "8.4"
+						},
+						{
+							"Date": "2012/2/29",
+							"Gold": "1742.62",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.5",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "2",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "8.2"
+						},
+						{
+							"Date": "2012/3/30",
+							"Gold": "1673.77",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.5",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "2.2",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "8.4"
+						},
+						{
+							"Date": "2012/4/30",
+							"Gold": "1650.07",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.5",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "2.1",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "8.3"
+						},
+						{
+							"Date": "2012/5/31",
+							"Gold": "1585.5",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.5",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "1.8",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "8.3"
+						},
+						{
+							"Date": "2012/6/29",
+							"Gold": "1596.7",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.5",
+							"歐元區存款利率(%)": "0.3",
+							"美國十年期公債殖利率(%)": "1.6",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "8.2"
+						},
+						{
+							"Date": "2012/7/31",
+							"Gold": "1593.91",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "1.5",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "7.5"
+						},
+						{
+							"Date": "2012/8/31",
+							"Gold": "1626.03",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "1.7",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "7.5"
+						},
+						{
+							"Date": "2012/9/28",
+							"Gold": "1744.45",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "1.7",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "7.4"
+						},
+						{
+							"Date": "2012/10/31",
+							"Gold": "1747.01",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "1.8",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "7.7"
+						},
+						{
+							"Date": "2012/11/30",
+							"Gold": "1721.14",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "1.7",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "7.6"
+						},
+						{
+							"Date": "2012/12/28",
+							"Gold": "1688.53",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "1.7",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "7.4"
+						},
+						{
+							"Date": "2013/1/31",
+							"Gold": "1670.95",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "1.9",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "7.3"
+						},
+						{
+							"Date": "2013/2/27",
+							"Gold": "1627.59",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "2",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "7.3"
+						},
+						{
+							"Date": "2013/3/29",
+							"Gold": "1592.86",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "2",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "7.4"
+						},
+						{
+							"Date": "2013/4/30",
+							"Gold": "1485.08",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "1.8",
+							"美國二年期公債殖利率(%)": "0.2",
+							"南非十年期公債殖利率(%)": "7"
+						},
+						{
+							"Date": "2013/5/31",
+							"Gold": "1413.5",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "1.9",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "7"
+						},
+						{
+							"Date": "2013/6/28",
+							"Gold": "1342.36",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "2.3",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "7.9"
+						},
+						{
+							"Date": "2013/7/31",
+							"Gold": "1286.72",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "2.6",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "8"
+						},
+						{
+							"Date": "2013/8/30",
+							"Gold": "1347.1",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "2.7",
+							"美國二年期公債殖利率(%)": "0.4",
+							"南非十年期公債殖利率(%)": "8.4"
+						},
+						{
+							"Date": "2013/9/30",
+							"Gold": "1348.8",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "2.8",
+							"美國二年期公債殖利率(%)": "0.4",
+							"南非十年期公債殖利率(%)": "8.2"
+						},
+						{
+							"Date": "2013/10/31",
+							"Gold": "1316.18",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "2.6",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "7.9"
+						},
+						{
+							"Date": "2013/11/29",
+							"Gold": "1275.82",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "2.7",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "8.2"
+						},
+						{
+							"Date": "2013/12/31",
+							"Gold": "1225.4",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "2.9",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "8.3"
+						},
+						{
+							"Date": "2014/1/27",
+							"Gold": "1244.8",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "2.9",
+							"美國二年期公債殖利率(%)": "0.4",
+							"南非十年期公債殖利率(%)": "8.5"
+						},
+						{
+							"Date": "2014/2/27",
+							"Gold": "1300.98",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "2.7",
+							"美國二年期公債殖利率(%)": "0.3",
+							"南非十年期公債殖利率(%)": "8.7"
+						},
+						{
+							"Date": "2014/3/31",
+							"Gold": "1336.08",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "2.7",
+							"美國二年期公債殖利率(%)": "0.4",
+							"南非十年期公債殖利率(%)": "8.5"
+						},
+						{
+							"Date": "2014/4/30",
+							"Gold": "1299",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "2.7",
+							"美國二年期公債殖利率(%)": "0.4",
+							"南非十年期公債殖利率(%)": "8.4"
+						},
+						{
+							"Date": "2014/5/30",
+							"Gold": "1287.53",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "0",
+							"美國十年期公債殖利率(%)": "2.6",
+							"美國二年期公債殖利率(%)": "0.4",
+							"南非十年期公債殖利率(%)": "8.2"
+						},
+						{
+							"Date": "2014/6/30",
+							"Gold": "1279.1",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "-0.1",
+							"美國十年期公債殖利率(%)": "2.6",
+							"美國二年期公債殖利率(%)": "0.5",
+							"南非十年期公債殖利率(%)": "8.3"
+						},
+						{
+							"Date": "2014/7/31",
+							"Gold": "1310.97",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "-0.1",
+							"美國十年期公債殖利率(%)": "2.5",
+							"美國二年期公債殖利率(%)": "0.5",
+							"南非十年期公債殖利率(%)": "8.3"
+						},
+						{
+							"Date": "2014/8/29",
+							"Gold": "1295.99",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "-0.1",
+							"美國十年期公債殖利率(%)": "2.4",
+							"美國二年期公債殖利率(%)": "0.5",
+							"南非十年期公債殖利率(%)": "8.2"
+						},
+						{
+							"Date": "2014/9/30",
+							"Gold": "1238.82",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "-0.2",
+							"美國十年期公債殖利率(%)": "2.5",
+							"美國二年期公債殖利率(%)": "0.6",
+							"南非十年期公債殖利率(%)": "8.2"
+						},
+						{
+							"Date": "2014/10/31",
+							"Gold": "1222.49",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3.3",
+							"歐元區存款利率(%)": "-0.2",
+							"美國十年期公債殖利率(%)": "2.3",
+							"美國二年期公債殖利率(%)": "0.5",
+							"南非十年期公債殖利率(%)": "8.1"
+						},
+						{
+							"Date": "2014/11/28",
+							"Gold": "1176.3",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3",
+							"歐元區存款利率(%)": "-0.2",
+							"美國十年期公債殖利率(%)": "2.3",
+							"美國二年期公債殖利率(%)": "0.5",
+							"南非十年期公債殖利率(%)": "7.9"
+						},
+						{
+							"Date": "2014/12/31",
+							"Gold": "1202.29",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3",
+							"歐元區存款利率(%)": "-0.2",
+							"美國十年期公債殖利率(%)": "2.2",
+							"美國二年期公債殖利率(%)": "0.6",
+							"南非十年期公債殖利率(%)": "7.8"
+						},
+						{
+							"Date": "2015/1/30",
+							"Gold": "1251.85",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3",
+							"歐元區存款利率(%)": "-0.2",
+							"美國十年期公債殖利率(%)": "1.9",
+							"美國二年期公債殖利率(%)": "0.6",
+							"南非十年期公債殖利率(%)": "7.4"
+						},
+						{
+							"Date": "2015/2/26",
+							"Gold": "1227.19",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "3",
+							"歐元區存款利率(%)": "-0.2",
+							"美國十年期公債殖利率(%)": "2",
+							"美國二年期公債殖利率(%)": "0.6",
+							"南非十年期公債殖利率(%)": "7.5"
+						},
+						{
+							"Date": "2015/3/31",
+							"Gold": "1178.63",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.8",
+							"歐元區存款利率(%)": "-0.2",
+							"美國十年期公債殖利率(%)": "2",
+							"美國二年期公債殖利率(%)": "0.6",
+							"南非十年期公債殖利率(%)": "7.8"
+						},
+						{
+							"Date": "2015/4/30",
+							"Gold": "1197.91",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.8",
+							"歐元區存款利率(%)": "-0.2",
+							"美國十年期公債殖利率(%)": "1.9",
+							"美國二年期公債殖利率(%)": "0.5",
+							"南非十年期公債殖利率(%)": "7.9"
+						},
+						{
+							"Date": "2015/5/29",
+							"Gold": "1199.05",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.8",
+							"歐元區存款利率(%)": "-0.2",
+							"美國十年期公債殖利率(%)": "2.2",
+							"美國二年期公債殖利率(%)": "0.6",
+							"南非十年期公債殖利率(%)": "8.1"
+						},
+						{
+							"Date": "2015/6/30",
+							"Gold": "1181.5",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "-0.2",
+							"美國十年期公債殖利率(%)": "2.4",
+							"美國二年期公債殖利率(%)": "0.7",
+							"南非十年期公債殖利率(%)": "8.3"
+						},
+						{
+							"Date": "2015/7/31",
+							"Gold": "1130.04",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "-0.2",
+							"美國十年期公債殖利率(%)": "2.3",
+							"美國二年期公債殖利率(%)": "0.7",
+							"南非十年期公債殖利率(%)": "8.2"
+						},
+						{
+							"Date": "2015/8/31",
+							"Gold": "1117.47",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "2.3",
+							"歐元區存款利率(%)": "-0.2",
+							"美國十年期公債殖利率(%)": "2.2",
+							"美國二年期公債殖利率(%)": "0.7",
+							"南非十年期公債殖利率(%)": "8.3"
+						},
+						{
+							"Date": "2015/9/30",
+							"Gold": "1124.53",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.2",
+							"美國十年期公債殖利率(%)": "2.2",
+							"美國二年期公債殖利率(%)": "0.7",
+							"南非十年期公債殖利率(%)": "8.5"
+						},
+						{
+							"Date": "2015/10/30",
+							"Gold": "1159.25",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.2",
+							"美國十年期公債殖利率(%)": "2.1",
+							"美國二年期公債殖利率(%)": "0.6",
+							"南非十年期公債殖利率(%)": "8.3"
+						},
+						{
+							"Date": "2015/11/30",
+							"Gold": "1085.7",
+							"美國FED利率(%)": "0.3",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.2",
+							"美國十年期公債殖利率(%)": "2.3",
+							"美國二年期公債殖利率(%)": "0.9",
+							"南非十年期公債殖利率(%)": "8.5"
+						},
+						{
+							"Date": "2015/12/31",
+							"Gold": "1068.25",
+							"美國FED利率(%)": "0.5",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.3",
+							"美國十年期公債殖利率(%)": "2.2",
+							"美國二年期公債殖利率(%)": "1",
+							"南非十年期公債殖利率(%)": "9.3"
+						},
+						{
+							"Date": "2016/1/30",
+							"Gold": "1097.37",
+							"美國FED利率(%)": "0.5",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.3",
+							"美國十年期公債殖利率(%)": "2.1",
+							"美國二年期公債殖利率(%)": "0.9",
+							"南非十年期公債殖利率(%)": "9.6"
+						},
+						{
+							"Date": "2016/2/26",
+							"Gold": "1199.91",
+							"美國FED利率(%)": "0.5",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.3",
+							"美國十年期公債殖利率(%)": "1.8",
+							"美國二年期公債殖利率(%)": "0.7",
+							"南非十年期公債殖利率(%)": "9.2"
+						},
+						{
+							"Date": "2016/3/31",
+							"Gold": "1246.34",
+							"美國FED利率(%)": "0.5",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.4",
+							"美國十年期公債殖利率(%)": "1.9",
+							"美國二年期公債殖利率(%)": "0.9",
+							"南非十年期公債殖利率(%)": "9.3"
+						},
+						{
+							"Date": "2016/4/29",
+							"Gold": "1242.26",
+							"美國FED利率(%)": "0.5",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.4",
+							"美國十年期公債殖利率(%)": "1.8",
+							"美國二年期公債殖利率(%)": "0.8",
+							"南非十年期公債殖利率(%)": "9.1"
+						},
+						{
+							"Date": "2016/5/31",
+							"Gold": "1259.4",
+							"美國FED利率(%)": "0.5",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.4",
+							"美國十年期公債殖利率(%)": "1.8",
+							"美國二年期公債殖利率(%)": "0.8",
+							"南非十年期公債殖利率(%)": "9.3"
+						},
+						{
+							"Date": "2016/6/30",
+							"Gold": "1276.4",
+							"美國FED利率(%)": "0.5",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.4",
+							"美國十年期公債殖利率(%)": "1.6",
+							"美國二年期公債殖利率(%)": "0.7",
+							"南非十年期公債殖利率(%)": "9.1"
+						},
+						{
+							"Date": "2016/7/29",
+							"Gold": "1337.33",
+							"美國FED利率(%)": "0.5",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.4",
+							"美國十年期公債殖利率(%)": "1.5",
+							"美國二年期公債殖利率(%)": "0.7",
+							"南非十年期公債殖利率(%)": "8.7"
+						},
+						{
+							"Date": "2016/8/31",
+							"Gold": "1341.09",
+							"美國FED利率(%)": "0.5",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.4",
+							"美國十年期公債殖利率(%)": "1.6",
+							"美國二年期公債殖利率(%)": "0.7",
+							"南非十年期公債殖利率(%)": "8.7"
+						},
+						{
+							"Date": "2016/9/30",
+							"Gold": "1326.03",
+							"美國FED利率(%)": "0.5",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.4",
+							"美國十年期公債殖利率(%)": "1.6",
+							"美國二年期公債殖利率(%)": "0.8",
+							"南非十年期公債殖利率(%)": "8.7"
+						},
+						{
+							"Date": "2016/10/31",
+							"Gold": "1266.57",
+							"美國FED利率(%)": "0.5",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.4",
+							"美國十年期公債殖利率(%)": "1.8",
+							"美國二年期公債殖利率(%)": "0.8",
+							"南非十年期公債殖利率(%)": "8.8"
+						},
+						{
+							"Date": "2016/11/30",
+							"Gold": "1235.98",
+							"美國FED利率(%)": "0.5",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.4",
+							"美國十年期公債殖利率(%)": "2.1",
+							"美國二年期公債殖利率(%)": "1",
+							"南非十年期公債殖利率(%)": "8.9"
+						},
+						{
+							"Date": "2016/12/30",
+							"Gold": "1151.4",
+							"美國FED利率(%)": "0.8",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.4",
+							"美國十年期公債殖利率(%)": "2.5",
+							"美國二年期公債殖利率(%)": "1.2",
+							"南非十年期公債殖利率(%)": "9"
+						},
+						{
+							"Date": "2017/1/24",
+							"Gold": "1192.62",
+							"美國FED利率(%)": "0.8",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.4",
+							"美國十年期公債殖利率(%)": "2.4",
+							"美國二年期公債殖利率(%)": "1.2",
+							"南非十年期公債殖利率(%)": "8.8"
+						},
+						{
+							"Date": "2017/2/24",
+							"Gold": "1234.36",
+							"美國FED利率(%)": "0.8",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.4",
+							"美國十年期公債殖利率(%)": "2.4",
+							"美國二年期公債殖利率(%)": "1.2",
+							"南非十年期公債殖利率(%)": "8.7"
+						},
+						{
+							"Date": "2017/3/31",
+							"Gold": "1231.09",
+							"美國FED利率(%)": "1",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.4",
+							"美國十年期公債殖利率(%)": "2.5",
+							"美國二年期公債殖利率(%)": "1.3",
+							"南非十年期公債殖利率(%)": "8.6"
+						},
+						{
+							"Date": "2017/4/28",
+							"Gold": "1265.63",
+							"美國FED利率(%)": "1",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.4",
+							"美國十年期公債殖利率(%)": "2.3",
+							"美國二年期公債殖利率(%)": "1.2",
+							"南非十年期公債殖利率(%)": "8.8"
+						},
+						{
+							"Date": "2017/5/31",
+							"Gold": "1245",
+							"美國FED利率(%)": "1",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.4",
+							"美國十年期公債殖利率(%)": "2.3",
+							"美國二年期公債殖利率(%)": "1.3",
+							"南非十年期公債殖利率(%)": "8.6"
+						},
+						{
+							"Date": "2017/6/30",
+							"Gold": "1260.26",
+							"美國FED利率(%)": "1.3",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.4",
+							"美國十年期公債殖利率(%)": "2.2",
+							"美國二年期公債殖利率(%)": "1.3",
+							"南非十年期公債殖利率(%)": "9"
+						},
+						{
+							"Date": "2017/7/31",
+							"Gold": "1236.22",
+							"美國FED利率(%)": "1.3",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.4",
+							"美國十年期公債殖利率(%)": "2.3",
+							"美國二年期公債殖利率(%)": "1.4",
+							"南非十年期公債殖利率(%)": "9.2"
+						},
+						{
+							"Date": "2017/8/31",
+							"Gold": "1282.32",
+							"美國FED利率(%)": "1.3",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.4",
+							"美國十年期公債殖利率(%)": "2.2",
+							"美國二年期公債殖利率(%)": "1.3",
+							"南非十年期公債殖利率(%)": "9.1"
+						},
+						{
+							"Date": "2017/9/30",
+							"Gold": "1314.98",
+							"美國FED利率(%)": "1.3",
+							"中國一年期存款利率(%)": "1.8",
+							"歐元區存款利率(%)": "-0.4",
+							"美國十年期公債殖利率(%)": "2.2",
+							"美國二年期公債殖利率(%)": "1.4",
+							"南非十年期公債殖利率(%)": "9.4"
+						}
+					]
+				}
+			);
+		</script>
+
+	
+  </body>
+</html>
